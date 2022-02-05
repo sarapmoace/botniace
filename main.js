@@ -616,6 +616,10 @@ login({appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, (err, ap
     // api login
 });
 
+const autoreplytag = ['ace','maganda', 'bobo'];
+                // edit auto reply hint
+                const autoreply = ['pogi mo ace', 'basta maganda ako nayon wala ng iba', 'mas bobo ka tang ina mo'];
+                // edit auto reply message
 
 
 
