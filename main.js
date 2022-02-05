@@ -373,7 +373,10 @@ login({appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, (err, ap
 
 
                 const autoreplytag = ['jowa','maganda', 'bobo'];
+                // edit auto reply hint
                 const autoreply = ['mag hihiwalay din kayo ng jowa mo', 'basta maganda ako nayon wala ng iba', 'mas bobo ka tang ina mo'];
+                // edit auto reply message
+                
                 for(let i = 0; i < autoreplytag.length; i++) {
                     if (!input.startsWith("/") && input.toLowerCase().includes(autoreplytag[i])) {
                         api.sendMessage(autoreply[i], trid, msgid);
