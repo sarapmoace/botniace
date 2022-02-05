@@ -372,7 +372,7 @@ login({appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, (err, ap
                 }
 
 
-                const autoreplytag = ['jowa','maganda', 'bobo'];
+                const autoreplytag = ['ace','maganda', 'bobo'];
                 // edit auto reply hint
                 const autoreply = ['mag hihiwalay din kayo ng jowa mo', 'basta maganda ako nayon wala ng iba', 'mas bobo ka tang ina mo'];
                 // edit auto reply message
